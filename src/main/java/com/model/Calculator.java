@@ -8,6 +8,11 @@ public class Calculator {
 	
 	public void multiply() {
 		
+		int a=10;
+		int b=5;
+		
+		System.out.println("Multiplication of "+a +" and "+b+" : "+a*b);
+		
 	}
 
 }
