@@ -11,6 +11,7 @@ public class SpringConfig {
 	@Bean
 	public Calculator cal() {
 		Calculator c=new Calculator();
+		
 		return c;
 	}
 

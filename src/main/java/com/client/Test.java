@@ -14,6 +14,7 @@ public class Test {
 		
 		Calculator c=ap.getBean("cal",Calculator.class);
 		c.addition();
+		c.multiply();
 	}
 
 }
