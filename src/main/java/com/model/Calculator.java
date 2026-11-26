@@ -19,6 +19,8 @@ public class Calculator {
 		
 		System.out.println("Multiplication of "+a +" and "+b+" : "+a*b);
 		
+<<<<<<< HEAD
+=======
 	}
 	
 	public void div()
@@ -28,6 +30,14 @@ public class Calculator {
 		int c = a / b;
 		
 		System.out.println("Division of " + " "+a + "  and  " + b +" "+ "is :  " + c);
+>>>>>>> 54973bc3cdc9c73685741030b1ff4d96afb42bc0
 	}
+	
+	public void subtraction()
 
+	{
+		int a=50;
+		int b=20;
+		System.out.println("Subtraction is:"+(a-b));
+	}
 }
