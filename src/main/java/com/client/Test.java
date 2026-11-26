@@ -13,6 +13,8 @@ public class Test {
 		ApplicationContext ap=new AnnotationConfigApplicationContext(SpringConfig.class);
 		
 		Calculator c=ap.getBean("cal",Calculator.class);
+		
+		c.subtraction();
 	}
 
 }

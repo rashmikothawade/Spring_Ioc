@@ -9,5 +9,12 @@ public class Calculator {
 	public void multiply() {
 		
 	}
+	
+	public void subtraction()
 
+	{
+		int a=50;
+		int b=20;
+		System.out.println("Subtraction is:"+(a-b));
+	}
 }
