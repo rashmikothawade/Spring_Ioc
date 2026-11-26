@@ -10,7 +10,7 @@ public class Calculator {
 	{
 		int a=10;
 		int b=20;
-		System.out.println(a+b);
+		System.out.println("Addition is : "+(a+b));
 	}
 	public void multiply() {
 		
@@ -18,9 +18,7 @@ public class Calculator {
 		int b=5;
 		
 		System.out.println("Multiplication of "+a +" and "+b+" : "+a*b);
-		
-<<<<<<< HEAD
-=======
+
 	}
 	
 	public void div()
@@ -30,7 +28,6 @@ public class Calculator {
 		int c = a / b;
 		
 		System.out.println("Division of " + " "+a + "  and  " + b +" "+ "is :  " + c);
->>>>>>> 54973bc3cdc9c73685741030b1ff4d96afb42bc0
 	}
 	
 	public void subtraction()
